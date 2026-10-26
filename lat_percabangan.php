@@ -1,14 +1,17 @@
 <?php
-$x = 50;
-$y = 50;
+// Deklarasi variabel
+$umur = 18;
+$tinggi = 160;
 
-if ($x == 100 || $y == 80) {
-    echo "Masuk sini <br>";
-} elseif ($x == 100) {
-    echo "Masuk blok 2 <br>";
+// Logika percabangan
+if ($umur >= 17 || $tinggi >= 150) {
+    echo "Boleh naik wahana <br>";
+} elseif ($umur >= 12) {
+    echo "Perlu pendampingan <br>";
 } else {
-    echo "Masuk Keranjang <br>";
+    echo "Tidak boleh naik <br>";
 }
 
-echo "Program Selesai";
+// Menampilkan pesan akhir
+echo "Pemeriksaan selesai";
 ?>
